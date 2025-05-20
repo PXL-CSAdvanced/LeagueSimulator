@@ -1,4 +1,4 @@
-# Proefexamen C# Advanced - LeagueSimulator
+# C# Advanced - LeagueSimulator
 
 **Algemene richtlijnen**
 * Het examen moet afgelegd worden op drie uur.
@@ -204,6 +204,8 @@ De klassen diagram van de class library ziet er als volgt uit:
 <img src="images/3.png">
 
 *Figuur 4: statische klassen*
+
+---
 
 ## 2. WPF Vensters
 
