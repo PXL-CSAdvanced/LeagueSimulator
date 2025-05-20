@@ -233,16 +233,20 @@ De applicatie bevat een WPF project, genaamd GameClubWPF, dat bestaat uit twee v
     - Als de file correct werd geladen, dan wordt EnableTabsEnDataGridAlsDataGeladen() van MainWindow opgeroepen.
  - Private methode: EnableTabsEnDataGridAlsDataGeladen - void
     - Contorleer of zowel de ChampionData als de AbilityData geladen is, zoja dan wordt MatchData geladen en worden de “Simuleer Match”-tab en “Overzicht Matches”-tab enabled. Vervolgens worden ItemsSource’s van de DataGrid’s van het venster ingesteld.
+    
     <img src="images/8.png"></br>
     *Figuur 8: Tabs enabled nadat data geladen is*
  - Als gebruiker kan ik een positie selecteren om enkel champions van deze positie te zien in de ComboBoxPositions. Zodra de gebruiker een keuze maakt, wordt de filter uitgevoerd.
+    
     <img src="images/9.png"></br>
     *Figuur 9: positie selecteren*
  - Als gebruiker kan ik op de “Best to Worst”-knop klikken om het DataGrid te sorteren volgens de methode GetDataViewChampionsBestToWorst() van ChampionData.
+    
     <img src="images/10.png"></br>
     *Figuur 10: Sort Best to Worst*
  - Als gebruiker kan ik op de “Reset”-knop klikken om alle champions in het DataGrid te zien.
  - Als gebruiker kan ik op een rij klikken in DataGridChampions om de afbeelding en naam en titel in te laden in MainWindow: ImageChampion en TextBlockChampionTitle.
+    
     <img src="images/11.png"></br>
     *Figuur 11: Selectie in DataGridChampions*
  - Voorzie een private variabele voor een Match bject.
@@ -267,6 +271,7 @@ De applicatie bevat een WPF project, genaamd GameClubWPF, dat bestaat uit twee v
      - De TextBlockCost wordt ingeladen op basis van de champion waarop ge-hovered wordt. Gebruik hiervoor de GetCost() methode van Champion.
      - De ListBoxChampionAbilities wordt leeggemaakt.
      - De abilities van de champion worden ingeladen in ListBoxChampionAbilities.
+    
     <img src="images/14.png"></br>
     *Figuur 14: Champion details on hover*
  - Als gebruiker kan ik op de “Beslis Winnaar”-knop klikken om een winnaar te bepalen. Gebruik hiervoor de DecideWinner() methode van Match. Voeg vervolgens het currentMatch object toe aan DataTableMatch via AddFinishedMatch(Match match) van MatchData. Deze methode zet de int waarde van Winner om in een string: 1 wordt “Red”, 2 wordt “Blue”.
@@ -284,5 +289,6 @@ De applicatie bevat een WPF project, genaamd GameClubWPF, dat bestaat uit twee v
 
  - Als gebruiker kan ik op de “Export to XML”-knop klikken om alle data in DataTableMatches te exporteren naar een XML bestand. Gebruik hier de ExportToXML() methode voor van MatchData.
      - Als de data succesvol is geëxporteerd, dan toon je een berichtvenster aan de gebruiker met het goede nieuws. Zie Figuur 16.
-      <img src="images/16.png"></br>
+      
+     <img src="images/16.png"></br>
      *Figuur 16:  succesvol geëxporteerd*
