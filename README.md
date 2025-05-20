@@ -219,9 +219,11 @@ De applicatie bevat een WPF project, genaamd GameClubWPF, dat bestaat uit twee v
 
  - Als gebruiker kan ik op de “Laad Champion Data”-knop klikken om een csv file te selecteren via een dialoogvenster. Gebruik hier de LoadCSV(ofd.FileName) van ChampionData voor.
     - Als de correcte file is geselecteerd, dan wordt de data geladen en wordt er de CheckBoxLaadChamionData aangevinkt.
+    
     <img src="images/5.png"></br>
     *Figuur 6: correct bestand*
     - Als een incorrect bestand is geselecteerd, dan wordt de gebruiker hiervan gewaarschuwd in met een berichtvenster.
+    
     <img src="images/7.png"></br>
     *Figuur 7: incorrect bestand*
     - Als de file correct werd geladen, dan wordt EnableTabsEnDataGridAlsDataGeladen() van MainWindow opgeroepen.
@@ -248,10 +250,12 @@ De applicatie bevat een WPF project, genaamd GameClubWPF, dat bestaat uit twee v
    - Gebruik later polymorfisme om zowel een TwistedTreeline object als een SummonersRift object in currentMatch op te slaan.
  - Als gebruiker kan ik op de “Genereer 5v5”-knop klikken om een SummonersRift object aan te maken in currentMatch dat twee teams van 5 Champion objecten genereert. Gebruik hier de GenerateTeams() methode.
    - Indien er geen code werd ingegeven in PasswordBoxMatchCode, dan toon je een foutmelding in een berichtvenster aan de gebruiker. Zie figuur 12.
-    <img src="images/12.png"></br>
+    
+   <img src="images/12.png"></br>
     *Figuur 12: Foutmelding voor geen code*
    - Indien de code in PasswordBoxMatchCode niet uniek is, dan toon je een foutmelding in een berichtvenster aan de gebruiker. Zie figuur 13.
-    <img src="images/13.png"></br>
+   
+   <img src="images/13.png"></br>
     *Figuur 13: Foutmelding code niet uniek*
  - Als gebruiker kan ik op de “Genereer 3v3”-knop klikken om een TwistedTreeline object aan te maken in currentMatch dat twee teams van 3 Champion objecten genereert. Gebruik hier de GenerateTeams() methode voor.
      - Indien er geen code werd ingegeven in PasswordBoxMatchCode, dan toon je een foutmelding in een berichtvenster aan de gebruiker. Zie figuur 12.
