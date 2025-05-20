@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35818.85 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueSimulator", "LeagueSimulator\LeagueSimulator.csproj", "{65ABD9B2-DC8F-4F3F-A5BD-B755B0377156}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LeagueClassLibrary", "LeagueClassLibrary\LeagueClassLibrary.csproj", "{D02A4349-FA7E-4357-A124-4DA0A1F69AE6}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65ABD9B2-DC8F-4F3F-A5BD-B755B0377156}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65ABD9B2-DC8F-4F3F-A5BD-B755B0377156}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65ABD9B2-DC8F-4F3F-A5BD-B755B0377156}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65ABD9B2-DC8F-4F3F-A5BD-B755B0377156}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D02A4349-FA7E-4357-A124-4DA0A1F69AE6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D02A4349-FA7E-4357-A124-4DA0A1F69AE6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D02A4349-FA7E-4357-A124-4DA0A1F69AE6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D02A4349-FA7E-4357-A124-4DA0A1F69AE6}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21454A31-ECCC-4895-8A3D-934843DC18F8}
+	EndGlobalSection
+EndGlobal
